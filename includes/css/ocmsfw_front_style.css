@@ -1,0 +1,526 @@
+
+.wizard-content-left h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+}
+.form-wizard2 .form-wizard-steps li:first-child::after {
+    width: 50%;
+    left: inherit;
+}
+.wizard_theme_ul_arrow span.wizard_theme_rectangle{
+
+  border-radius: 1px 10px 10px 1px!important;
+  height: 54px!important;
+  line-height: 54px!important;
+  width: 83%!important;
+}
+.form-wizard .wizard-form-radio {
+  display: inline-block;
+  margin-left: 5px;
+  position: relative;
+}
+form.checkout.woocommerce-checkout {
+    display: inline-block;
+    width: 100%;
+}
+.form-wizard .wizard-form-radio input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-color: #dddddd;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+.form-wizard .wizard-form-radio input[type="radio"]:focus {
+  outline: 0;
+}
+.form-wizard .wizard-form-radio input[type="radio"]:checked {
+  background-color: #fb1647;
+}
+.form-wizard .wizard-form-radio input[type="radio"]:checked::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 50%;
+  left: 1px;
+  right: 0;
+  margin: 0 auto;
+  top: 8px;
+}
+
+.form-wizard2 .form-wizard-steps li.active:last-child::after{
+  left:0!important;
+}
+.form-wizard .wizard-form-radio input[type="radio"]:checked::after {
+  content: "";
+  display: inline-block;
+  webkit-animation: click-radio-wave 0.65s;
+  -moz-animation: click-radio-wave 0.65s;
+  animation: click-radio-wave 0.65s;
+  background: #000000;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+  border-radius: 50%;
+}
+.form-wizard .wizard-form-radio input[type="radio"] ~ label {
+  padding-left: 10px;
+  cursor: pointer;
+}
+.form-wizard2 .form-wizard-header {
+  text-align: center;
+}
+.form-wizard .form-wizard-next-btn, .form-wizard .form-wizard-previous-btn, .form-wizard .form-wizard-submit {
+  color: #ffffff;
+  display: inline-block;
+  min-width: 100px;
+  min-width: 120px;
+  padding: 5px;
+  text-align: center;
+}
+.form-wizard .form-wizard-next-btn:hover, .form-wizard .form-wizard-next-btn:focus, .form-wizard .form-wizard-previous-btn:hover, .form-wizard .form-wizard-previous-btn:focus, .form-wizard .form-wizard-submit:hover, .form-wizard .form-wizard-submit:focus {
+  color: #ffffff;
+  opacity: 0.6;
+  text-decoration: none;
+  text-decoration:block;
+}
+.form-wizard .wizard-fieldset {
+  display: none;
+}
+
+.form-wizard .wizard-form-error {
+  display: none;
+  background-color: #d70b0b;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.form-wizard .form-wizard-previous-btn {
+    background-color: #fb1647;
+}
+.form-wizard .form-control {
+    font-weight: 300;
+    height: auto !important;
+    padding: 15px;
+    color: #888888;
+    background-color: #f1f1f1;
+    border: none;
+}
+.form-wizard .form-control:focus {
+    box-shadow: none;
+}
+.form-wizard .form-group {
+    display: inline-block;
+    position: relative;
+    margin: 25px 0;
+    width: 100%;
+}
+.oc_login_form_checkout .woocommerce-form-login {
+    display: block !important;
+}
+.oc_login_form_checkout .woocommerce-form-login-toggle {
+    display: none !important;
+}
+a.form-wizard-next-btn.float-left {
+    text-decoration: none!important;
+    box-shadow:none;
+    padding:10px;
+    width:auto;
+}
+a.form-wizard-next-btn.float-left:hover{
+    box-shadow:none;
+}
+a.form-wizard-previous-btn.float-left {
+    float: left;
+    text-decoration: none!important;
+    padding:10px;
+}
+a.form-wizard-next-btn.float-right {
+    float: right;
+    text-decoration: none!important;
+    box-shadow: none;
+    padding:10px;
+    width:auto;
+}
+a.form-wizard-previous-btn.float-left:hover , a.form-wizard-next-btn.float-right:hover{
+  box-shadow: none;
+}
+.form-wizard .wizard-form-text-label {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  transition: 0.2s linear all;
+}
+a.form-wizard-previous-btn.float-left{
+  box-shadow: none;
+}
+.form-wizard .focus-input .wizard-form-text-label {
+  color: #d65470;
+  top: -18px;
+  transition: 0.2s linear all;
+  font-size: 12px;
+}
+.form-wizard2 .form-wizard-steps {
+  padding: 40px 0;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.form-wizard2 .form-wizard-steps li {
+  width: 25%;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+.form-wizard2 .form-wizard-steps li#combine{
+  width: 50%;
+}
+#combine span.wizard_theme{
+  font-size: 20px!important;
+  height: 90px!important;
+  width: 90px!important;
+  line-height: 90px!important;
+}
+#combine .wizard_theme i {
+    padding: 5px;
+}
+li#combine\ not_login {
+    width: 33.33%;
+}
+.form-wizard2 .form-wizard-steps li.combine_class.after::after {
+    display: none !important;
+}
+.form-wizard2 .form-wizard-steps li.combine_class.simple_round::after {
+    top: 45%;
+}
+.simple_round span.wizard_theme_simple_round {
+    height: 90px!important;
+    line-height: 90px!important;
+    width: 90px!important;
+    font-size: 0px!important;
+}
+.form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.wizard_theme_rectangle::after {
+    top: 50%;
+    left: 90%;
+}
+li#combine\ not_login span.wizard_theme {
+    font-size: 20px!important;
+    height: 90px!important;
+    width: 90px!important;
+    line-height: 90px!important;
+}
+li#combine\ not_login span.wizard_theme i {
+    padding: 5px;
+}
+.form-wizard2 .form-wizard-steps li::after {
+  background-color: #f3f3f3;
+  content: "";
+  height: 5px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+}
+.form-wizard2 .form-wizard-steps li span {
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+    font-size: 15px;
+    z-index: 1;
+    font-weight: 600;
+}
+.form-wizard2 .form-wizard-steps ul,.form-wizard .form-wizard-steps li  {
+  margin:0px;
+}
+.form-wizard2 .form-wizard-steps li:last-child::after {
+  width: 50%;
+}
+
+.form-wizard2 .form-wizard-steps li.activated::after {
+  width: 100%;
+  border-color: #d65470;
+}
+.form-wizard2 .form-wizard-steps li:last-child::after {
+  left: 0;
+}
+.form-wizard .wizard-password-eye {
+  position: absolute;
+  right: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+span.wizard_theme {
+    font-size: 22px!important;
+    height: 60px!important;
+    width: 60px!important;
+    line-height: 60px!important;
+}
+span.wizard_theme_rectangle{
+    border-radius: 5px!important;
+    height: 62px!important;
+    line-height: 62px!important;
+    width: 91%!important;
+}
+span.wizard_theme_simple_round{
+    height: 60px!important;
+    line-height: 60px!important;
+    width: 60px!important;
+    font-size: 0px!important;
+
+}
+
+.form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow  li::after{
+ 
+    background-color:inherit;
+    content: " ";
+    transform:inherit;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid #f5f5f5;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 85%;
+    z-index: 2;
+
+}
+
+.form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.active:last-child::after{
+    left: 80%!important;
+}
+
+.form-wizard2 .form-wizard-steps.wizard_theme_ul_rectangle li::after{
+    display: none;
+}
+
+div#order_review {
+    width: 100% !important;
+}
+
+.form-wizard2 .form-wizard-steps.wizard_theme_ul_rectangle li.combine_class::after{
+    display: block;
+}
+
+@keyframes click-radio-wave {
+  0% {
+    width: 25px;
+    height: 25px;
+    opacity: 0.35;
+    position: relative;
+  }
+  100% {
+    width: 60px;
+    height: 60px;
+    margin-left: -15px;
+    margin-top: -15px;
+    opacity: 0.0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wizard-content-left {
+    height: auto;
+  }
+  .form-wizard2 .form-wizard-steps li span {
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    position: relative;
+    text-align: center;
+    width: 60px;
+    /*min-width: 90px;*/
+    font-size: 12px;
+    z-index: 1;
+    font-weight: 600;
+  }
+  .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.is_login::after {
+    left: 73% !important;
+  }
+  .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.active:last-child::after{
+    left: 75%!important;
+  }
+  span.wizard_theme_rectangle {
+      border-radius: 5px!important;
+      height: 55px!important;
+      line-height: 54px!important;
+      width: 90%!important;
+      font-size: 10px !important;
+  }
+  .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li::after {
+      border-top: 32px solid transparent!important;
+      border-bottom: 32px solid transparent!important;
+      top: 90%!important;
+      left: 68%!important;
+  }
+  .wizard_theme_ul_arrow span.wizard_theme_rectangle{
+    border-radius: 1px!important;
+    height: 46px!important;
+    line-height: 46px!important;
+    width: 80%!important;
+    min-width: 55px!important;
+    font-size: 10px!important;
+  }
+  .wizard_theme_ul_arrow span.wizard_theme_rectangle {
+    float: left;
+    border-radius: 1px 13px 13px 1px !important;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .form-wizard .form-wizard-steps.wizard_theme_ul_arrow li.active::after, .form-wizard .form-wizard-steps.wizard_theme_ul_arrow li.activated::after {
+    border-left: 30px solid #5bc0de !important;
+  }
+  .form-wizard .form-wizard-steps.wizard_theme_ul_arrow li::after {
+    border-left: 30px solid #b0b0b0 !important;
+  }
+  .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.active::after, .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li.activated::after {
+    border-left: 30px solid #5bc0de !important;
+  }
+  .form-wizard2 .form-wizard-steps.wizard_theme_ul_arrow li::after {
+    border-left: 30px solid #b0b0b0 !important;
+  }
+} 
+.wizard_theme_ul_arrow li::after {
+    left: 80% !important;
+}
+span.wizard_theme_rectangle {
+    float: left;
+}
+.form-wizard .wizard-fieldset.show {
+  display: block;
+  animation-name: showfade;
+  animation-duration: 4s;
+  animation-delay: .1s;
+  animation-fill-mode: both;
+  border :none;
+}
+
+@keyframes showfade {
+  0%{
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+}
+
+.form-wizard2 .form-wizard-steps li.combine_class::after{
+  top: 25%;
+
+}
+
+ .form-wizard2 .wizard_theme_ul_arrow li.combine_class::after{
+border:none;
+
+}
+
+.combine_class p {
+    color: #000;
+}
+
+
+
+
+/*
+
+.form-wizard2 .form-wizard-header {
+  text-align: center;
+}
+.form-wizard2 .form-wizard-steps {
+    padding: 40px 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+.form-wizard2 .form-wizard-steps li {
+    width: 25%;
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.form-wizard2 .form-wizard-steps ul, .form-wizard2 .form-wizard-steps li {
+    margin: 0px;
+}
+.form-wizard2 .form-wizard-steps li span {
+    background-color: #b0b0b0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    text-align: center;
+    width: 90px;
+    font-size: 15px;
+    z-index: 1;
+    font-weight: 600;
+}
+.form-wizard2 .form-wizard-steps li:first-child::after {
+    width: 50%;
+    left: inherit;
+}
+.form-wizard2 .form-wizard-steps li::after {
+    background-color: #f3f3f3;
+    content: "";
+    height: 5px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+}
+.form-wizard2 .form-wizard-steps li:last-child::after {
+    left: 0;
+}
+.form-wizard2 .form-wizard-steps li:last-child::after {
+    width: 50%;
+}
+.form-wizard2 .form-wizard-steps li.activated::after {
+  width: 100%;
+  border-color: #d65470;
+}
+.form-wizard2 .form-wizard-steps li.active:last-child::after{
+  left:0!important;
+}
+
+.form-wizard2 .form-wizard-steps li.combine_class::after{
+  top: 25%;
+
+}
+
+ .form-wizard2 .wizard_theme_ul_arrow li.combine_class::after{
+border:none;
+
+}
+*/

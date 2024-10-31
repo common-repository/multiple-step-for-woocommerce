@@ -1,0 +1,167 @@
+.ocmsfw-container ul.tabs{
+      margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+.ocmsfw-container .data_table td {
+    font-size: 17px;
+}
+.ocmsfw-container ul.tabs li{
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    width: auto;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    margin-bottom: -1px;
+}
+.multidesign label {
+    font-size: 15px;
+}
+.wp-core-ui .ocmsfw-container .button-primary {
+    background: #3c5a75!important;
+    border-color: #3c5a75!important;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 0px!important;
+}
+.ocmsfw-container form {
+    background: #fff;
+    padding: 20px;
+}
+.wp-picker-container{
+    line-height: 31px;
+}
+.ocmsfw-container .tab-content{
+    display: none;
+    padding: 15px 0px;
+}
+.ocmsfw-container .tab-content.current{
+    display: inherit;
+}
+.ocmsfw-container {
+    margin-top: 20px;
+    width: 80%;
+}
+.ocmsfw-container h2 {
+    margin: 0px 0px;
+    padding: 10px 10px;
+    background-color: #3c5a75;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+}
+.cover_div {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.ocmsfw-container ul.tabs li.current{
+    border-bottom: 1px solid #f1f1f1;
+    background: #3c5a75;
+    color: #ffffff;
+}
+.ocmsfw-container .data_table tr {
+    line-height: 65px;
+}
+.ocmsfw-container table.data_table {
+    padding: 16px;
+}
+
+
+
+/*CSS for support rating donation multistep start*/
+.ocmsfw_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+.ocmsfw_ratesup_notice_main {
+    display: inline-block;
+    width: 100%;
+}
+.ocmsfw_rateus_notice, .ocmsfw_support_notice {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    color: #fff;
+    background-color: #fb5f51;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    height: 70px;
+    margin-bottom: 12px;
+}
+.ocmsfw_rateus_notice h3, .ocmsfw_support_notice h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+.ocmsfw_rateus_notice label, .ocmsfw_support_notice label {
+    font-size: 16px;
+}
+.ocmsfw_support_notice {
+    background-color: #2f3337;
+    margin-left: 2%;
+}
+.ocmsfw_rateus_notice a, .ocmsfw_support_notice a {
+    color: #fff;
+}
+.ocmsfw_rtusnoti_left {
+    display: inline-block;
+    float: left;
+    width: 70%;
+}
+.ocmsfw_rtusnoti_right {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.ocmsfw_rtusnoti_right img {
+    width: 50px;
+    height: auto;
+}
+.ocmsfw_donate_main {
+    background: #fff;
+    padding: 15px;
+    display: flex;
+    width: 94.6%;
+    border: 1px solid #e3bbac;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-top: 15px;
+}
+.ocmsfw_donate_main img {
+    height: 32px;
+}
+.ocmsfw_donate_main > * {
+    margin: 0 15px 0 0;
+    vertical-align: middle;
+}
+.ocmsfw_onate_main h3 {
+    font-size: 15px;
+}
+.ocmsfw_donate_form {
+    display: flex;
+}
+.ocmsfw_donate_main .button {
+    text-align: center;
+}
+img.ocmsfw_rating_div {
+    width: 100px;
+    width: 105px;
+    vertical-align: middle;
+}
+span.ocmsfw_combine_notice {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/*CSS for support rating donation multistep end*/
